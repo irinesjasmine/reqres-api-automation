@@ -1,0 +1,13 @@
+{
+  "name": "reqres-api-automation",
+  "version": "1.0.0",
+  "description": "Automasi API test untuk ReqRes (GET user, POST login, PUT update user) memakai Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "dotenv": "^16.4.5"
+  }
+}
